@@ -41,7 +41,7 @@
             guz3 = new Button();
             guz0 = new Button();
             guzPrzec = new Button();
-            guzProc = new Button();
+            guzZmiana = new Button();
             guzPlus = new Button();
             guzMinus = new Button();
             guzRazy = new Button();
@@ -73,7 +73,6 @@
             guz7.Size = new Size(112, 120);
             guz7.TabIndex = 1;
             guz7.Text = "7";
-            guz7.TextAlign = ContentAlignment.TopRight;
             guz7.UseVisualStyleBackColor = false;
             guz7.Click += guz7_Click;
             // 
@@ -89,7 +88,6 @@
             guz4.Size = new Size(112, 120);
             guz4.TabIndex = 2;
             guz4.Text = "4";
-            guz4.TextAlign = ContentAlignment.TopRight;
             guz4.UseVisualStyleBackColor = false;
             guz4.Click += guz4_Click;
             // 
@@ -105,7 +103,6 @@
             guz8.Size = new Size(112, 120);
             guz8.TabIndex = 3;
             guz8.Text = "8";
-            guz8.TextAlign = ContentAlignment.TopRight;
             guz8.UseVisualStyleBackColor = false;
             guz8.Click += guz8_Click;
             // 
@@ -121,7 +118,6 @@
             guz5.Size = new Size(112, 120);
             guz5.TabIndex = 4;
             guz5.Text = "5";
-            guz5.TextAlign = ContentAlignment.TopRight;
             guz5.UseVisualStyleBackColor = false;
             guz5.Click += guz5_Click;
             // 
@@ -137,7 +133,6 @@
             guz6.Size = new Size(112, 120);
             guz6.TabIndex = 5;
             guz6.Text = "6";
-            guz6.TextAlign = ContentAlignment.TopRight;
             guz6.UseVisualStyleBackColor = false;
             guz6.Click += guz6_Click;
             // 
@@ -168,7 +163,6 @@
             guz1.Size = new Size(112, 120);
             guz1.TabIndex = 7;
             guz1.Text = "1";
-            guz1.TextAlign = ContentAlignment.TopRight;
             guz1.UseVisualStyleBackColor = false;
             guz1.Click += guz1_Click;
             // 
@@ -184,7 +178,6 @@
             guz2.Size = new Size(112, 120);
             guz2.TabIndex = 8;
             guz2.Text = "2";
-            guz2.TextAlign = ContentAlignment.TopRight;
             guz2.UseVisualStyleBackColor = false;
             guz2.Click += guz2_Click;
             // 
@@ -200,7 +193,6 @@
             guz3.Size = new Size(112, 120);
             guz3.TabIndex = 9;
             guz3.Text = "3";
-            guz3.TextAlign = ContentAlignment.TopRight;
             guz3.UseVisualStyleBackColor = false;
             guz3.Click += guz3_Click;
             // 
@@ -216,7 +208,6 @@
             guz0.Size = new Size(112, 120);
             guz0.TabIndex = 10;
             guz0.Text = "0";
-            guz0.TextAlign = ContentAlignment.TopRight;
             guz0.UseVisualStyleBackColor = false;
             guz0.Click += guz0_Click;
             // 
@@ -231,26 +222,24 @@
             guzPrzec.Name = "guzPrzec";
             guzPrzec.Size = new Size(112, 120);
             guzPrzec.TabIndex = 11;
-            guzPrzec.Text = ".";
-            guzPrzec.TextAlign = ContentAlignment.TopRight;
+            guzPrzec.Text = ",";
             guzPrzec.UseVisualStyleBackColor = false;
             guzPrzec.Click += guzPrzec_Click;
             // 
-            // guzProc
+            // guzZmiana
             // 
-            guzProc.BackColor = Color.SlateBlue;
-            guzProc.BackgroundImageLayout = ImageLayout.Center;
-            guzProc.FlatAppearance.BorderSize = 0;
-            guzProc.FlatStyle = FlatStyle.Flat;
-            guzProc.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            guzProc.ImageAlign = ContentAlignment.TopCenter;
-            guzProc.Location = new Point(29, 756);
-            guzProc.Name = "guzProc";
-            guzProc.Size = new Size(112, 120);
-            guzProc.TabIndex = 12;
-            guzProc.Text = "%";
-            guzProc.TextAlign = ContentAlignment.TopLeft;
-            guzProc.UseVisualStyleBackColor = false;
+            guzZmiana.BackColor = Color.SlateBlue;
+            guzZmiana.BackgroundImageLayout = ImageLayout.Center;
+            guzZmiana.FlatAppearance.BorderSize = 0;
+            guzZmiana.FlatStyle = FlatStyle.Flat;
+            guzZmiana.Font = new Font("Consolas", 23F, FontStyle.Bold);
+            guzZmiana.Location = new Point(29, 756);
+            guzZmiana.Name = "guzZmiana";
+            guzZmiana.Size = new Size(112, 120);
+            guzZmiana.TabIndex = 12;
+            guzZmiana.Text = "+/-";
+            guzZmiana.UseVisualStyleBackColor = false;
+            guzZmiana.Click += guzZmiana_Click;
             // 
             // guzPlus
             // 
@@ -264,7 +253,6 @@
             guzPlus.Size = new Size(112, 120);
             guzPlus.TabIndex = 13;
             guzPlus.Text = "+";
-            guzPlus.TextAlign = ContentAlignment.TopRight;
             guzPlus.UseVisualStyleBackColor = false;
             guzPlus.Click += guzPlus_Click;
             // 
@@ -280,7 +268,6 @@
             guzMinus.Size = new Size(112, 120);
             guzMinus.TabIndex = 14;
             guzMinus.Text = "-";
-            guzMinus.TextAlign = ContentAlignment.TopRight;
             guzMinus.UseVisualStyleBackColor = false;
             guzMinus.Click += guzMinus_Click;
             // 
@@ -296,8 +283,8 @@
             guzRazy.Size = new Size(112, 120);
             guzRazy.TabIndex = 15;
             guzRazy.Text = "x";
-            guzRazy.TextAlign = ContentAlignment.TopRight;
             guzRazy.UseVisualStyleBackColor = false;
+            guzRazy.Click += guzRazy_Click;
             // 
             // guzDziel
             // 
@@ -311,8 +298,8 @@
             guzDziel.Size = new Size(112, 120);
             guzDziel.TabIndex = 16;
             guzDziel.Text = "/";
-            guzDziel.TextAlign = ContentAlignment.TopRight;
             guzDziel.UseVisualStyleBackColor = false;
+            guzDziel.Click += guzDziel_Click;
             // 
             // guzWynik
             // 
@@ -342,7 +329,6 @@
             guzC.Size = new Size(112, 120);
             guzC.TabIndex = 18;
             guzC.Text = "C";
-            guzC.TextAlign = ContentAlignment.TopLeft;
             guzC.UseVisualStyleBackColor = false;
             guzC.Click += guzC_Click;
             // 
@@ -358,7 +344,7 @@
             Controls.Add(guzRazy);
             Controls.Add(guzMinus);
             Controls.Add(guzPlus);
-            Controls.Add(guzProc);
+            Controls.Add(guzZmiana);
             Controls.Add(guzPrzec);
             Controls.Add(guz0);
             Controls.Add(guz3);
@@ -399,7 +385,7 @@
         private Button guz3;
         private Button guz0;
         private Button guzPrzec;
-        private Button guzProc;
+        private Button guzZmiana;
         private Button guzPlus;
         private Button guzMinus;
         private Button guzRazy;

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "CsharpCalculator-M93.pl": {
+      "commandName": "Project",
+      "hotReloadEnabled": false,
+      "nativeDebugging": false
+    }
+  }
+}
