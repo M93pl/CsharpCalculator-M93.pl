@@ -30,24 +30,24 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             wynik = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button18 = new Button();
+            guz7 = new Button();
+            guz4 = new Button();
+            guz8 = new Button();
+            guz5 = new Button();
+            guz6 = new Button();
+            guz9 = new Button();
+            guz1 = new Button();
+            guz2 = new Button();
+            guz3 = new Button();
+            guz0 = new Button();
+            guzPrzec = new Button();
+            guzProc = new Button();
+            guzPlus = new Button();
+            guzMinus = new Button();
+            guzRazy = new Button();
+            guzDziel = new Button();
+            guzWynik = new Button();
+            guzC = new Button();
             SuspendLayout();
             // 
             // wynik
@@ -61,276 +61,290 @@
             wynik.Text = "000000000";
             wynik.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // guz7
             // 
-            button1.BackColor = Color.SlateBlue;
-            button1.BackgroundImageLayout = ImageLayout.Center;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button1.Location = new Point(32, 319);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 120);
-            button1.TabIndex = 1;
-            button1.Text = "7";
-            button1.TextAlign = ContentAlignment.TopRight;
-            button1.UseVisualStyleBackColor = false;
+            guz7.BackColor = Color.SlateBlue;
+            guz7.BackgroundImageLayout = ImageLayout.Center;
+            guz7.FlatAppearance.BorderSize = 0;
+            guz7.FlatStyle = FlatStyle.Flat;
+            guz7.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guz7.Location = new Point(32, 319);
+            guz7.Name = "guz7";
+            guz7.Size = new Size(112, 120);
+            guz7.TabIndex = 1;
+            guz7.Text = "7";
+            guz7.TextAlign = ContentAlignment.TopRight;
+            guz7.UseVisualStyleBackColor = false;
+            guz7.Click += guz7_Click;
             // 
-            // button2
+            // guz4
             // 
-            button2.BackColor = Color.SlateBlue;
-            button2.BackgroundImageLayout = ImageLayout.Center;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button2.Location = new Point(32, 461);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 120);
-            button2.TabIndex = 2;
-            button2.Text = "4";
-            button2.TextAlign = ContentAlignment.TopRight;
-            button2.UseVisualStyleBackColor = false;
+            guz4.BackColor = Color.SlateBlue;
+            guz4.BackgroundImageLayout = ImageLayout.Center;
+            guz4.FlatAppearance.BorderSize = 0;
+            guz4.FlatStyle = FlatStyle.Flat;
+            guz4.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guz4.Location = new Point(32, 461);
+            guz4.Name = "guz4";
+            guz4.Size = new Size(112, 120);
+            guz4.TabIndex = 2;
+            guz4.Text = "4";
+            guz4.TextAlign = ContentAlignment.TopRight;
+            guz4.UseVisualStyleBackColor = false;
+            guz4.Click += guz4_Click;
             // 
-            // button3
+            // guz8
             // 
-            button3.BackColor = Color.SlateBlue;
-            button3.BackgroundImageLayout = ImageLayout.Center;
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button3.Location = new Point(164, 319);
-            button3.Name = "button3";
-            button3.Size = new Size(112, 120);
-            button3.TabIndex = 3;
-            button3.Text = "8";
-            button3.TextAlign = ContentAlignment.TopRight;
-            button3.UseVisualStyleBackColor = false;
+            guz8.BackColor = Color.SlateBlue;
+            guz8.BackgroundImageLayout = ImageLayout.Center;
+            guz8.FlatAppearance.BorderSize = 0;
+            guz8.FlatStyle = FlatStyle.Flat;
+            guz8.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guz8.Location = new Point(164, 319);
+            guz8.Name = "guz8";
+            guz8.Size = new Size(112, 120);
+            guz8.TabIndex = 3;
+            guz8.Text = "8";
+            guz8.TextAlign = ContentAlignment.TopRight;
+            guz8.UseVisualStyleBackColor = false;
+            guz8.Click += guz8_Click;
             // 
-            // button4
+            // guz5
             // 
-            button4.BackColor = Color.SlateBlue;
-            button4.BackgroundImageLayout = ImageLayout.Center;
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button4.Location = new Point(164, 461);
-            button4.Name = "button4";
-            button4.Size = new Size(112, 120);
-            button4.TabIndex = 4;
-            button4.Text = "5";
-            button4.TextAlign = ContentAlignment.TopRight;
-            button4.UseVisualStyleBackColor = false;
+            guz5.BackColor = Color.SlateBlue;
+            guz5.BackgroundImageLayout = ImageLayout.Center;
+            guz5.FlatAppearance.BorderSize = 0;
+            guz5.FlatStyle = FlatStyle.Flat;
+            guz5.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guz5.Location = new Point(164, 461);
+            guz5.Name = "guz5";
+            guz5.Size = new Size(112, 120);
+            guz5.TabIndex = 4;
+            guz5.Text = "5";
+            guz5.TextAlign = ContentAlignment.TopRight;
+            guz5.UseVisualStyleBackColor = false;
+            guz5.Click += guz5_Click;
             // 
-            // button5
+            // guz6
             // 
-            button5.BackColor = Color.SlateBlue;
-            button5.BackgroundImageLayout = ImageLayout.Center;
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button5.Location = new Point(298, 461);
-            button5.Name = "button5";
-            button5.Size = new Size(112, 120);
-            button5.TabIndex = 5;
-            button5.Text = "6";
-            button5.TextAlign = ContentAlignment.TopRight;
-            button5.UseVisualStyleBackColor = false;
+            guz6.BackColor = Color.SlateBlue;
+            guz6.BackgroundImageLayout = ImageLayout.Center;
+            guz6.FlatAppearance.BorderSize = 0;
+            guz6.FlatStyle = FlatStyle.Flat;
+            guz6.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guz6.Location = new Point(298, 461);
+            guz6.Name = "guz6";
+            guz6.Size = new Size(112, 120);
+            guz6.TabIndex = 5;
+            guz6.Text = "6";
+            guz6.TextAlign = ContentAlignment.TopRight;
+            guz6.UseVisualStyleBackColor = false;
+            guz6.Click += guz6_Click;
             // 
-            // button6
+            // guz9
             // 
-            button6.BackColor = Color.SlateBlue;
-            button6.BackgroundImageLayout = ImageLayout.Center;
-            button6.FlatAppearance.BorderSize = 0;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button6.Location = new Point(298, 319);
-            button6.Name = "button6";
-            button6.Size = new Size(112, 120);
-            button6.TabIndex = 6;
-            button6.Text = "9";
-            button6.TextAlign = ContentAlignment.TopRight;
-            button6.UseVisualStyleBackColor = false;
+            guz9.BackColor = Color.SlateBlue;
+            guz9.BackgroundImageLayout = ImageLayout.Center;
+            guz9.FlatAppearance.BorderSize = 0;
+            guz9.FlatStyle = FlatStyle.Flat;
+            guz9.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guz9.Location = new Point(298, 319);
+            guz9.Name = "guz9";
+            guz9.Size = new Size(112, 120);
+            guz9.TabIndex = 6;
+            guz9.Text = "9";
+            guz9.UseVisualStyleBackColor = false;
+            guz9.Click += guz9_Click;
             // 
-            // button7
+            // guz1
             // 
-            button7.BackColor = Color.SlateBlue;
-            button7.BackgroundImageLayout = ImageLayout.Center;
-            button7.FlatAppearance.BorderSize = 0;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button7.Location = new Point(32, 607);
-            button7.Name = "button7";
-            button7.Size = new Size(112, 120);
-            button7.TabIndex = 7;
-            button7.Text = "1";
-            button7.TextAlign = ContentAlignment.TopRight;
-            button7.UseVisualStyleBackColor = false;
+            guz1.BackColor = Color.SlateBlue;
+            guz1.BackgroundImageLayout = ImageLayout.Center;
+            guz1.FlatAppearance.BorderSize = 0;
+            guz1.FlatStyle = FlatStyle.Flat;
+            guz1.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guz1.Location = new Point(32, 607);
+            guz1.Name = "guz1";
+            guz1.Size = new Size(112, 120);
+            guz1.TabIndex = 7;
+            guz1.Text = "1";
+            guz1.TextAlign = ContentAlignment.TopRight;
+            guz1.UseVisualStyleBackColor = false;
+            guz1.Click += guz1_Click;
             // 
-            // button8
+            // guz2
             // 
-            button8.BackColor = Color.SlateBlue;
-            button8.BackgroundImageLayout = ImageLayout.Center;
-            button8.FlatAppearance.BorderSize = 0;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button8.Location = new Point(164, 607);
-            button8.Name = "button8";
-            button8.Size = new Size(112, 120);
-            button8.TabIndex = 8;
-            button8.Text = "2";
-            button8.TextAlign = ContentAlignment.TopRight;
-            button8.UseVisualStyleBackColor = false;
+            guz2.BackColor = Color.SlateBlue;
+            guz2.BackgroundImageLayout = ImageLayout.Center;
+            guz2.FlatAppearance.BorderSize = 0;
+            guz2.FlatStyle = FlatStyle.Flat;
+            guz2.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guz2.Location = new Point(164, 607);
+            guz2.Name = "guz2";
+            guz2.Size = new Size(112, 120);
+            guz2.TabIndex = 8;
+            guz2.Text = "2";
+            guz2.TextAlign = ContentAlignment.TopRight;
+            guz2.UseVisualStyleBackColor = false;
+            guz2.Click += guz2_Click;
             // 
-            // button9
+            // guz3
             // 
-            button9.BackColor = Color.SlateBlue;
-            button9.BackgroundImageLayout = ImageLayout.Center;
-            button9.FlatAppearance.BorderSize = 0;
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button9.Location = new Point(298, 607);
-            button9.Name = "button9";
-            button9.Size = new Size(112, 120);
-            button9.TabIndex = 9;
-            button9.Text = "3";
-            button9.TextAlign = ContentAlignment.TopRight;
-            button9.UseVisualStyleBackColor = false;
+            guz3.BackColor = Color.SlateBlue;
+            guz3.BackgroundImageLayout = ImageLayout.Center;
+            guz3.FlatAppearance.BorderSize = 0;
+            guz3.FlatStyle = FlatStyle.Flat;
+            guz3.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guz3.Location = new Point(298, 607);
+            guz3.Name = "guz3";
+            guz3.Size = new Size(112, 120);
+            guz3.TabIndex = 9;
+            guz3.Text = "3";
+            guz3.TextAlign = ContentAlignment.TopRight;
+            guz3.UseVisualStyleBackColor = false;
+            guz3.Click += guz3_Click;
             // 
-            // button10
+            // guz0
             // 
-            button10.BackColor = Color.SlateBlue;
-            button10.BackgroundImageLayout = ImageLayout.Center;
-            button10.FlatAppearance.BorderSize = 0;
-            button10.FlatStyle = FlatStyle.Flat;
-            button10.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button10.Location = new Point(164, 756);
-            button10.Name = "button10";
-            button10.Size = new Size(112, 120);
-            button10.TabIndex = 10;
-            button10.Text = "0";
-            button10.TextAlign = ContentAlignment.TopRight;
-            button10.UseVisualStyleBackColor = false;
+            guz0.BackColor = Color.SlateBlue;
+            guz0.BackgroundImageLayout = ImageLayout.Center;
+            guz0.FlatAppearance.BorderSize = 0;
+            guz0.FlatStyle = FlatStyle.Flat;
+            guz0.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guz0.Location = new Point(164, 756);
+            guz0.Name = "guz0";
+            guz0.Size = new Size(112, 120);
+            guz0.TabIndex = 10;
+            guz0.Text = "0";
+            guz0.TextAlign = ContentAlignment.TopRight;
+            guz0.UseVisualStyleBackColor = false;
+            guz0.Click += guz0_Click;
             // 
-            // button11
+            // guzPrzec
             // 
-            button11.BackColor = Color.SlateBlue;
-            button11.BackgroundImageLayout = ImageLayout.Center;
-            button11.FlatAppearance.BorderSize = 0;
-            button11.FlatStyle = FlatStyle.Flat;
-            button11.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button11.Location = new Point(298, 756);
-            button11.Name = "button11";
-            button11.Size = new Size(112, 120);
-            button11.TabIndex = 11;
-            button11.Text = ".";
-            button11.TextAlign = ContentAlignment.TopRight;
-            button11.UseVisualStyleBackColor = false;
+            guzPrzec.BackColor = Color.SlateBlue;
+            guzPrzec.BackgroundImageLayout = ImageLayout.Center;
+            guzPrzec.FlatAppearance.BorderSize = 0;
+            guzPrzec.FlatStyle = FlatStyle.Flat;
+            guzPrzec.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guzPrzec.Location = new Point(298, 756);
+            guzPrzec.Name = "guzPrzec";
+            guzPrzec.Size = new Size(112, 120);
+            guzPrzec.TabIndex = 11;
+            guzPrzec.Text = ".";
+            guzPrzec.TextAlign = ContentAlignment.TopRight;
+            guzPrzec.UseVisualStyleBackColor = false;
+            guzPrzec.Click += guzPrzec_Click;
             // 
-            // button12
+            // guzProc
             // 
-            button12.BackColor = Color.SlateBlue;
-            button12.BackgroundImageLayout = ImageLayout.Center;
-            button12.FlatAppearance.BorderSize = 0;
-            button12.FlatStyle = FlatStyle.Flat;
-            button12.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button12.ImageAlign = ContentAlignment.TopCenter;
-            button12.Location = new Point(29, 756);
-            button12.Name = "button12";
-            button12.Size = new Size(112, 120);
-            button12.TabIndex = 12;
-            button12.Text = "%";
-            button12.TextAlign = ContentAlignment.TopLeft;
-            button12.UseVisualStyleBackColor = false;
+            guzProc.BackColor = Color.SlateBlue;
+            guzProc.BackgroundImageLayout = ImageLayout.Center;
+            guzProc.FlatAppearance.BorderSize = 0;
+            guzProc.FlatStyle = FlatStyle.Flat;
+            guzProc.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guzProc.ImageAlign = ContentAlignment.TopCenter;
+            guzProc.Location = new Point(29, 756);
+            guzProc.Name = "guzProc";
+            guzProc.Size = new Size(112, 120);
+            guzProc.TabIndex = 12;
+            guzProc.Text = "%";
+            guzProc.TextAlign = ContentAlignment.TopLeft;
+            guzProc.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // guzPlus
             // 
-            button13.BackColor = Color.SlateBlue;
-            button13.BackgroundImageLayout = ImageLayout.Center;
-            button13.FlatAppearance.BorderSize = 0;
-            button13.FlatStyle = FlatStyle.Flat;
-            button13.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button13.Location = new Point(478, 319);
-            button13.Name = "button13";
-            button13.Size = new Size(112, 120);
-            button13.TabIndex = 13;
-            button13.Text = "+";
-            button13.TextAlign = ContentAlignment.TopRight;
-            button13.UseVisualStyleBackColor = false;
+            guzPlus.BackColor = Color.SlateBlue;
+            guzPlus.BackgroundImageLayout = ImageLayout.Center;
+            guzPlus.FlatAppearance.BorderSize = 0;
+            guzPlus.FlatStyle = FlatStyle.Flat;
+            guzPlus.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guzPlus.Location = new Point(478, 319);
+            guzPlus.Name = "guzPlus";
+            guzPlus.Size = new Size(112, 120);
+            guzPlus.TabIndex = 13;
+            guzPlus.Text = "+";
+            guzPlus.TextAlign = ContentAlignment.TopRight;
+            guzPlus.UseVisualStyleBackColor = false;
+            guzPlus.Click += guzPlus_Click;
             // 
-            // button14
+            // guzMinus
             // 
-            button14.BackColor = Color.SlateBlue;
-            button14.BackgroundImageLayout = ImageLayout.Center;
-            button14.FlatAppearance.BorderSize = 0;
-            button14.FlatStyle = FlatStyle.Flat;
-            button14.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button14.Location = new Point(478, 461);
-            button14.Name = "button14";
-            button14.Size = new Size(112, 120);
-            button14.TabIndex = 14;
-            button14.Text = "-";
-            button14.TextAlign = ContentAlignment.TopRight;
-            button14.UseVisualStyleBackColor = false;
+            guzMinus.BackColor = Color.SlateBlue;
+            guzMinus.BackgroundImageLayout = ImageLayout.Center;
+            guzMinus.FlatAppearance.BorderSize = 0;
+            guzMinus.FlatStyle = FlatStyle.Flat;
+            guzMinus.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guzMinus.Location = new Point(478, 461);
+            guzMinus.Name = "guzMinus";
+            guzMinus.Size = new Size(112, 120);
+            guzMinus.TabIndex = 14;
+            guzMinus.Text = "-";
+            guzMinus.TextAlign = ContentAlignment.TopRight;
+            guzMinus.UseVisualStyleBackColor = false;
+            guzMinus.Click += guzMinus_Click;
             // 
-            // button15
+            // guzRazy
             // 
-            button15.BackColor = Color.SlateBlue;
-            button15.BackgroundImageLayout = ImageLayout.Center;
-            button15.FlatAppearance.BorderSize = 0;
-            button15.FlatStyle = FlatStyle.Flat;
-            button15.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button15.Location = new Point(478, 607);
-            button15.Name = "button15";
-            button15.Size = new Size(112, 120);
-            button15.TabIndex = 15;
-            button15.Text = "x";
-            button15.TextAlign = ContentAlignment.TopRight;
-            button15.UseVisualStyleBackColor = false;
+            guzRazy.BackColor = Color.SlateBlue;
+            guzRazy.BackgroundImageLayout = ImageLayout.Center;
+            guzRazy.FlatAppearance.BorderSize = 0;
+            guzRazy.FlatStyle = FlatStyle.Flat;
+            guzRazy.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guzRazy.Location = new Point(478, 607);
+            guzRazy.Name = "guzRazy";
+            guzRazy.Size = new Size(112, 120);
+            guzRazy.TabIndex = 15;
+            guzRazy.Text = "x";
+            guzRazy.TextAlign = ContentAlignment.TopRight;
+            guzRazy.UseVisualStyleBackColor = false;
             // 
-            // button16
+            // guzDziel
             // 
-            button16.BackColor = Color.SlateBlue;
-            button16.BackgroundImageLayout = ImageLayout.Center;
-            button16.FlatAppearance.BorderSize = 0;
-            button16.FlatStyle = FlatStyle.Flat;
-            button16.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button16.Location = new Point(478, 756);
-            button16.Name = "button16";
-            button16.Size = new Size(112, 120);
-            button16.TabIndex = 16;
-            button16.Text = "/";
-            button16.TextAlign = ContentAlignment.TopRight;
-            button16.UseVisualStyleBackColor = false;
+            guzDziel.BackColor = Color.SlateBlue;
+            guzDziel.BackgroundImageLayout = ImageLayout.Center;
+            guzDziel.FlatAppearance.BorderSize = 0;
+            guzDziel.FlatStyle = FlatStyle.Flat;
+            guzDziel.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guzDziel.Location = new Point(478, 756);
+            guzDziel.Name = "guzDziel";
+            guzDziel.Size = new Size(112, 120);
+            guzDziel.TabIndex = 16;
+            guzDziel.Text = "/";
+            guzDziel.TextAlign = ContentAlignment.TopRight;
+            guzDziel.UseVisualStyleBackColor = false;
             // 
-            // button17
+            // guzWynik
             // 
-            button17.BackColor = Color.YellowGreen;
-            button17.BackgroundImageLayout = ImageLayout.Center;
-            button17.FlatAppearance.BorderSize = 0;
-            button17.FlatStyle = FlatStyle.Flat;
-            button17.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button17.Location = new Point(32, 174);
-            button17.Name = "button17";
-            button17.Size = new Size(378, 120);
-            button17.TabIndex = 17;
-            button17.Text = "=";
-            button17.UseVisualStyleBackColor = false;
+            guzWynik.BackColor = Color.YellowGreen;
+            guzWynik.BackgroundImageLayout = ImageLayout.Center;
+            guzWynik.FlatAppearance.BorderSize = 0;
+            guzWynik.FlatStyle = FlatStyle.Flat;
+            guzWynik.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guzWynik.Location = new Point(32, 174);
+            guzWynik.Name = "guzWynik";
+            guzWynik.Size = new Size(378, 120);
+            guzWynik.TabIndex = 17;
+            guzWynik.Text = "=";
+            guzWynik.UseVisualStyleBackColor = false;
+            guzWynik.Click += guzWynik_Click;
             // 
-            // button18
+            // guzC
             // 
-            button18.BackColor = Color.DarkViolet;
-            button18.BackgroundImageLayout = ImageLayout.Center;
-            button18.FlatAppearance.BorderSize = 0;
-            button18.FlatStyle = FlatStyle.Flat;
-            button18.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            button18.ImageAlign = ContentAlignment.TopCenter;
-            button18.Location = new Point(478, 173);
-            button18.Name = "button18";
-            button18.Size = new Size(112, 120);
-            button18.TabIndex = 18;
-            button18.Text = "C";
-            button18.TextAlign = ContentAlignment.TopLeft;
-            button18.UseVisualStyleBackColor = false;
+            guzC.BackColor = Color.DarkViolet;
+            guzC.BackgroundImageLayout = ImageLayout.Center;
+            guzC.FlatAppearance.BorderSize = 0;
+            guzC.FlatStyle = FlatStyle.Flat;
+            guzC.Font = new Font("Consolas", 48F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            guzC.ImageAlign = ContentAlignment.TopCenter;
+            guzC.Location = new Point(478, 173);
+            guzC.Name = "guzC";
+            guzC.Size = new Size(112, 120);
+            guzC.TabIndex = 18;
+            guzC.Text = "C";
+            guzC.TextAlign = ContentAlignment.TopLeft;
+            guzC.UseVisualStyleBackColor = false;
+            guzC.Click += guzC_Click;
             // 
             // MainWindow
             // 
@@ -338,24 +352,24 @@
             AutoScroll = true;
             BackColor = Color.Indigo;
             ClientSize = new Size(618, 904);
-            Controls.Add(button18);
-            Controls.Add(button17);
-            Controls.Add(button16);
-            Controls.Add(button15);
-            Controls.Add(button14);
-            Controls.Add(button13);
-            Controls.Add(button12);
-            Controls.Add(button11);
-            Controls.Add(button10);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(guzC);
+            Controls.Add(guzWynik);
+            Controls.Add(guzDziel);
+            Controls.Add(guzRazy);
+            Controls.Add(guzMinus);
+            Controls.Add(guzPlus);
+            Controls.Add(guzProc);
+            Controls.Add(guzPrzec);
+            Controls.Add(guz0);
+            Controls.Add(guz3);
+            Controls.Add(guz2);
+            Controls.Add(guz1);
+            Controls.Add(guz9);
+            Controls.Add(guz6);
+            Controls.Add(guz5);
+            Controls.Add(guz8);
+            Controls.Add(guz4);
+            Controls.Add(guz7);
             Controls.Add(wynik);
             Cursor = Cursors.Hand;
             Font = new Font("Consolas", 20F, FontStyle.Bold, GraphicsUnit.Point, 238);
@@ -374,23 +388,23 @@
         #endregion
 
         private Label wynik;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
+        private Button guz7;
+        private Button guz4;
+        private Button guz8;
+        private Button guz5;
+        private Button guz6;
+        private Button guz9;
+        private Button guz1;
+        private Button guz2;
+        private Button guz3;
+        private Button guz0;
+        private Button guzPrzec;
+        private Button guzProc;
+        private Button guzPlus;
+        private Button guzMinus;
+        private Button guzRazy;
+        private Button guzDziel;
+        private Button guzWynik;
+        private Button guzC;
     }
 }
