@@ -1,12 +1,20 @@
 # Csharp Calculator
 
 ### Prosty kalkulator napisany w C#.
+ver. 0.8
 
 ~~~~~~~~~~~~~~~~~~~~~~
 ver. 0.8
-W pe≥ni funkcjonalny kalkulator. Prosty i szybki.
+W pe≈Çni funkcjonalny kalkulator. Prosty i szybki.
 ~~~~~~~~~~~~~~~~~~~~~~
 
-ver. 0.8
-Wszelkie prawa zastrzeøone M93.pl (c) 2025
-www.m93.pl
+<br><br>
+# https://www.m93.pl
+
+----------------------
+contact:<br>
+info@m93.pl<br>
+contact@m93.pl<br><br>
+Wszelkie prawa zastrze≈ºone:<br>
+All rights reserved by:<br><br>
+M93.pl (c) 2025
