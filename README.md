@@ -1,7 +1,13 @@
 # Csharp Calculator
 ## C# / WinForms
 ### Prosty kalkulator napisany w C#.
-ver. 0.8
+
+ver. 0.8<br>
+
+Skompilowany program można pobrać z:<br>
+https://m93.pl/Upload/Files/InstallCsharpCalculator.exe<br>
+lub z mojego repozytorium publicznego:<br>
+https://github.com/M93pl/----_P_U_B_L_I_C_----<br>
 
 ~~~~~~~~~~~~~~~~~~~~~~
 ver. 0.8
